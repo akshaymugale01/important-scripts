@@ -68,3 +68,25 @@ motel1.display();
 // let item1 = new Motel('kinara', 410401, 'Fish Fry');
 // item1.display();
 
+//////////////////////////
+
+//Object destructor
+
+let obj ={
+    name : "Akshay",
+    age : 23 ,
+    salary : 900000
+}
+
+const {name, age, salary} = obj;
+
+console.log(name)
+console.log(age)
+console.log(salary)
+
+let arr = [11,12,13,14,15]
+
+const[a,...b] = arr; //spread operator
+
+console.log(a)
+console.log(b)
